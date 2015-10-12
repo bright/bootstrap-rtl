@@ -1,15 +1,15 @@
 /*******************************************************************************
  *              bootstrap-rtl (version 3.3.4)
  *      Author: Morteza Ansarinia (http://github.com/morteza)
- *  Created on: August 13,2015
+ *  Created on: October 12,2015
  *     Project: bootstrap-rtl
  *   Copyright: Unlicensed Public Domain
  *******************************************************************************/
 
-html {
+html[dir="rtl"] {
   direction: rtl;
 }
-body {
+[dir="rtl"] body {
   direction: rtl;
 }
 .flip.text-left {
