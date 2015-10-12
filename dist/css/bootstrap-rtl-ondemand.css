@@ -1,8 +1,8 @@
 /*******************************************************************************
- *              bootstrap-rtl (version 3.3.4)
+ *              bootstrap-rtl-ondemand (version 3.3.4-ondemand)
  *      Author: Morteza Ansarinia (http://github.com/morteza)
  *  Created on: October 12,2015
- *     Project: bootstrap-rtl
+ *     Project: bootstrap-rtl-ondemand
  *   Copyright: Unlicensed Public Domain
  *******************************************************************************/
 
@@ -55,13 +55,13 @@ html[dir="rtl"] {
   border-right: 0;
   text-align: left;
 }
-[dir="rtl"] .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+[dir="rtl"] .col-xs-1, [dir="rtl"] .col-sm-1, [dir="rtl"] .col-md-1, [dir="rtl"] .col-lg-1, [dir="rtl"] [dir="rtl"] .col-xs-2, [dir="rtl"] .col-sm-2, [dir="rtl"] .col-md-2, [dir="rtl"] .col-lg-2, [dir="rtl"] [dir="rtl"] .col-xs-3, [dir="rtl"] .col-sm-3, [dir="rtl"] .col-md-3, [dir="rtl"] .col-lg-3, [dir="rtl"] [dir="rtl"] .col-xs-4, [dir="rtl"] .col-sm-4, [dir="rtl"] .col-md-4, [dir="rtl"] .col-lg-4, [dir="rtl"] [dir="rtl"] .col-xs-5, [dir="rtl"] .col-sm-5, [dir="rtl"] .col-md-5, [dir="rtl"] .col-lg-5, [dir="rtl"] [dir="rtl"] .col-xs-6, [dir="rtl"] .col-sm-6, [dir="rtl"] .col-md-6, [dir="rtl"] .col-lg-6, [dir="rtl"] [dir="rtl"] .col-xs-7, [dir="rtl"] .col-sm-7, [dir="rtl"] .col-md-7, [dir="rtl"] .col-lg-7, [dir="rtl"] [dir="rtl"] .col-xs-8, [dir="rtl"] .col-sm-8, [dir="rtl"] .col-md-8, [dir="rtl"] .col-lg-8, [dir="rtl"] [dir="rtl"] .col-xs-9, [dir="rtl"] .col-sm-9, [dir="rtl"] .col-md-9, [dir="rtl"] .col-lg-9, [dir="rtl"] [dir="rtl"] .col-xs-10, [dir="rtl"] .col-sm-10, [dir="rtl"] .col-md-10, [dir="rtl"] .col-lg-10, [dir="rtl"] [dir="rtl"] .col-xs-11, [dir="rtl"] .col-sm-11, [dir="rtl"] .col-md-11, [dir="rtl"] .col-lg-11, [dir="rtl"] [dir="rtl"] .col-xs-12, [dir="rtl"] .col-sm-12, [dir="rtl"] .col-md-12, [dir="rtl"] .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
-[dir="rtl"] .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+[dir="rtl"] .col-xs-1, [dir="rtl"] .col-xs-2, [dir="rtl"] .col-xs-3, [dir="rtl"] .col-xs-4, [dir="rtl"] .col-xs-5, [dir="rtl"] .col-xs-6, [dir="rtl"] .col-xs-7, [dir="rtl"] .col-xs-8, [dir="rtl"] .col-xs-9, [dir="rtl"] .col-xs-10, [dir="rtl"] .col-xs-11, [dir="rtl"] .col-xs-12 {
   float: right;
 }
 [dir="rtl"] .col-xs-12 {
@@ -257,7 +257,7 @@ html[dir="rtl"] {
   margin-left: 0;
 }
 @media (min-width: 768px) {
-  [dir="rtl"] .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  [dir="rtl"] .col-sm-1, [dir="rtl"] .col-sm-2, [dir="rtl"] .col-sm-3, [dir="rtl"] .col-sm-4, [dir="rtl"] .col-sm-5, [dir="rtl"] .col-sm-6, [dir="rtl"] .col-sm-7, [dir="rtl"] .col-sm-8, [dir="rtl"] .col-sm-9, [dir="rtl"] .col-sm-10, [dir="rtl"] .col-sm-11, [dir="rtl"] .col-sm-12 {
     float: right;
   }
   [dir="rtl"] .col-sm-12 {
@@ -454,7 +454,7 @@ html[dir="rtl"] {
   }
 }
 @media (min-width: 992px) {
-  [dir="rtl"] .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  [dir="rtl"] .col-md-1, [dir="rtl"] .col-md-2, [dir="rtl"] .col-md-3, [dir="rtl"] .col-md-4, [dir="rtl"] .col-md-5, [dir="rtl"] .col-md-6, [dir="rtl"] .col-md-7, [dir="rtl"] .col-md-8, [dir="rtl"] .col-md-9, [dir="rtl"] .col-md-10, [dir="rtl"] .col-md-11, [dir="rtl"] .col-md-12 {
     float: right;
   }
   [dir="rtl"] .col-md-12 {
@@ -651,7 +651,7 @@ html[dir="rtl"] {
   }
 }
 @media (min-width: 1200px) {
-  [dir="rtl"] .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  [dir="rtl"] .col-lg-1, [dir="rtl"] .col-lg-2, [dir="rtl"] .col-lg-3, [dir="rtl"] .col-lg-4, [dir="rtl"] .col-lg-5, [dir="rtl"] .col-lg-6, [dir="rtl"] .col-lg-7, [dir="rtl"] .col-lg-8, [dir="rtl"] .col-lg-9, [dir="rtl"] .col-lg-10, [dir="rtl"] .col-lg-11, [dir="rtl"] .col-lg-12 {
     float: right;
   }
   [dir="rtl"] .col-lg-12 {
@@ -1473,4 +1473,4 @@ html[dir="rtl"] {
 [dir="rtl"] .pull-left.flip {
   float: right !important;
 }
-/*# sourceMappingURL=bootstrap-rtl.css.map */
+/*# sourceMappingURL=bootstrap-rtl-ondemand.css.map */
