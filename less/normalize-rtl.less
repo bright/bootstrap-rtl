@@ -2,7 +2,7 @@
 // 1. Set direction to RTL
 //
 
-html[dir="rtl"] {
+html@{rtl-prefix} {
   direction: rtl;
 }
 
@@ -10,6 +10,6 @@ html[dir="rtl"] {
 // Remove default margin.
 //
 
-[dir="rtl"] body {
+@{rtl-prefix} body {
   direction: rtl;
 }
