@@ -39,6 +39,7 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+bower_components
 
 # Ignore zipped release dist files
 *.zip
