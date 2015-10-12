@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap-rtl",
-  "description": "Right-to-left (RTL) theme for Boostrap 3.x",
+  "name": "bootstrap-rtl-ondemand",
+  "description": "Right-to-left (RTL) theme for Twitter Bootstrap 3.x activated with html dir=\"rtl\" attribute on-the-fly.",
   "version": "3.3.4",
   "style": "dist/css/bootstrap-rtl.css",
   "homepage": "http://github.com/morteza/bootstrap-rtl",
@@ -16,7 +16,7 @@
     "hebrew",
     "theme"
   ],
-  "dependencies" : {
+  "dependencies": {
     "bootstrap": "^3.3.4"
   },
   "devDependencies": {
@@ -28,11 +28,11 @@
     "node": "~0.10.1"
   },
   "repository": {
-      "type": "git",
-    "url": "https://github.com/morteza/bootstrap-rtl.git"
+    "type": "git",
+    "url": "https://github.com/bright/bootstrap-rtl.git"
   },
   "bugs": {
-      "url": "https://github.com/morteza/bootstrap-rtl/issues"
+    "url": "https://github.com/bright/bootstrap-rtl/issues"
   },
   "licenses": [{
     "type": "Unlicensed Public Domain"

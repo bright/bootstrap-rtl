@@ -1,10 +1,11 @@
 {
-  "name": "bootstrap-rtl",
-  "description": "Right-to-left (RTL) theme for Twitter Bootstrap 3.x",
+  "name": "bootstrap-rtl-ondemand",
+  "description": "Right-to-left (RTL) theme for Twitter Bootstrap 3.x activated with html dir=\"rtl\" attribute on-the-fly.",
   "version": "3.3.4",
-  "homepage": "https://github.com/morteza/bootstrap-rtl",
+  "homepage": "https://github.com/bright/bootstrap-rtl",
   "authors": [
-    "Morteza Ansarinia (http://github.com/morteza)"
+    "Morteza Ansarinia (https://github.com/morteza)",
+    "Michał Jastrzębowski (https://github.com/mjastrzebowski)"
   ],
   "main": [
     "dist/css/bootstrap-rtl.css"
