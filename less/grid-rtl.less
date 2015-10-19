@@ -6,7 +6,7 @@
 //
 // Common styles for small and large grid columns
 
-.make-rtl-grid-columns(@rtl-prefix);
+.make-rtl-grid-columns();
 
 
 // Extra small grid
@@ -14,7 +14,7 @@
 // Columns, offsets, pushes, and pulls for extra small devices like
 // smartphones.
 
-.make-rtl-grid(xs, @rtl-prefix);
+.make-rtl-grid(xs);
 
 
 // Small grid
@@ -23,7 +23,7 @@
 // to tablets.
 
 @media (min-width: @screen-sm-min) {
-  .make-rtl-grid(sm, @rtl-prefix);
+  .make-rtl-grid(sm);
 }
 
 
@@ -32,7 +32,7 @@
 // Columns, offsets, pushes, and pulls for the desktop device range.
 
 @media (min-width: @screen-md-min) {
-  .make-rtl-grid(md, @rtl-prefix);
+  .make-rtl-grid(md);
 }
 
 
@@ -41,5 +41,5 @@
 // Columns, offsets, pushes, and pulls for the large desktop device range.
 
 @media (min-width: @screen-lg-min) {
-  .make-rtl-grid(lg, @rtl-prefix);
+  .make-rtl-grid(lg);
 }

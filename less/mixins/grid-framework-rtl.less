@@ -3,7 +3,7 @@
 // Used only by Bootstrap to generate the correct number of grid classes given
 // any value of `@grid-columns`.
 
-.make-rtl-grid-columns(@rtl-prefix) {
+.make-rtl-grid-columns() {
   // Common styles for all sizes of grid columns, widths 1-12
   .col(@index) { // initial
     @item: ~".col-xs-@{index}, @{rtl-prefix} .col-sm-@{index}, @{rtl-prefix} .col-md-@{index}, @{rtl-prefix} .col-lg-@{index}";
@@ -26,7 +26,7 @@
   .col(1); // kickstart it
 }
 
-.float-rtl-grid-columns(@class, @rtl-prefix) {
+.float-rtl-grid-columns(@class) {
   .col(@index) { // initial
     @item: ~".col-@{class}-@{index}";
     .col((@index + 1), @item);
@@ -87,8 +87,8 @@
 }
 
 // Create grid for specific class
-.make-rtl-grid(@class, @rtl-prefix) {
-  .float-rtl-grid-columns(@class, @rtl-prefix);
+.make-rtl-grid(@class) {
+  .float-rtl-grid-columns(@class);
   .loop-rtl-grid-columns(@grid-columns, @class, width);
   .loop-rtl-grid-columns(@grid-columns, @class, pull);
   .loop-rtl-grid-columns(@grid-columns, @class, push);
